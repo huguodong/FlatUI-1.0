@@ -1,0 +1,8 @@
+Sample.MainActivity, Sample;md5e44603b235f21ebfbb6b3d0f2dc433d5.MainActivity
+Sample.MainActivity, Sample, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e44603b235f21ebfbb6b3d0f2dc433d5.MainActivity
+Sample.MainActivity;md5e44603b235f21ebfbb6b3d0f2dc433d5.MainActivity
+sample.MainActivity;md5e44603b235f21ebfbb6b3d0f2dc433d5.MainActivity
+Com.Cengalabs.Flatui.Attributes/IAttributeChangeListenerImplementor, FlatUI;mono.com.cengalabs.flatui.Attributes_AttributeChangeListenerImplementor
+Com.Cengalabs.Flatui.Attributes+IAttributeChangeListenerImplementor, FlatUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.cengalabs.flatui.Attributes_AttributeChangeListenerImplementor
+Com.Cengalabs.Flatui.Attributes.IAttributeChangeListenerImplementor;mono.com.cengalabs.flatui.Attributes_AttributeChangeListenerImplementor
+mono.com.cengalabs.flatui.Attributes_AttributeChangeListenerImplementor;mono.com.cengalabs.flatui.Attributes_AttributeChangeListenerImplementor

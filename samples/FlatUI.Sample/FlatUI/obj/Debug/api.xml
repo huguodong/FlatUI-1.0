@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+<package name="com.cengalabs.flatui">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Attributes" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="Attributes" static="false" type="com.cengalabs.flatui.Attributes" visibility="public">
+<parameter name="p0" type="com.cengalabs.flatui.Attributes.AttributeChangeListener">
+</parameter>
+<parameter name="p1" type="android.content.res.Resources">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getBorderWidth" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getFontExtension" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getFontFamily" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getFontWeight" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getOuterRadius" native="false" return="float[]" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getRadius" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSize" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTextAppearance" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTheme" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTouchEffect" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="hasTouchEffect" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setBorderWidth" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setColors" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setFontExtension" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setFontFamily" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setFontWeight" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setRadius" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setSize" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setTextAppearance" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setTheme" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="android.content.res.Resources">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setThemeSilent" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="android.content.res.Resources">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setTouchEffect" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="false" name="DEFAULT_BORDER_WIDTH_DP" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="DEFAULT_BORDER_WIDTH_PX" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEFAULT_FONT_EXTENSION" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;ttf&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEFAULT_FONT_FAMILY" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;roboto&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEFAULT_FONT_WEIGHT" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;light&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="DEFAULT_RADIUS_DP" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="DEFAULT_RADIUS_PX" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="DEFAULT_SIZE_DP" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="DEFAULT_SIZE_PX" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEFAULT_TEXT_APPEARANCE" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="DEFAULT_THEME" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEFAULT_TOUCH_EFFECT" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="EASE_TOUCH_EFFECT" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="INVALID" static="true" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RIPPLE_TOUCH_EFFECT" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="Attributes.AttributeChangeListener" static="true" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="onThemeChange" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="BuildConfig" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="BuildConfig" static="false" type="com.cengalabs.flatui.BuildConfig" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="DEBUG" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="true" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="FlatUI" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="FlatUI" static="false" type="com.cengalabs.flatui.FlatUI" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getActionBarDrawable" native="false" return="android.graphics.drawable.Drawable" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.app.Activity">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getActionBarDrawable" native="false" return="android.graphics.drawable.Drawable" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.app.Activity">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="boolean">
+</parameter>
+<parameter name="p3" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getFont" native="false" return="android.graphics.Typeface" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="com.cengalabs.flatui.Attributes">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="initDefaultValues" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setDefaultTheme" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="BLOOD" static="true" transient="false" type="int" type-generic-aware="int" value="2130968587" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="BLOSSOM" static="true" transient="false" type="int" type-generic-aware="int" value="2130968579" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CANDY" static="true" transient="false" type="int" type-generic-aware="int" value="2130968578" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DARK" static="true" transient="false" type="int" type-generic-aware="int" value="2130968584" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEEP" static="true" transient="false" type="int" type-generic-aware="int" value="2130968581" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="GRAPE" static="true" transient="false" type="int" type-generic-aware="int" value="2130968580" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="GRASS" static="true" transient="false" type="int" type-generic-aware="int" value="2130968583" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="ORANGE" static="true" transient="false" type="int" type-generic-aware="int" value="2130968577" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SAND" static="true" transient="false" type="int" type-generic-aware="int" value="2130968576" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SEA" static="true" transient="false" type="int" type-generic-aware="int" value="2130968586" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SKY" static="true" transient="false" type="int" type-generic-aware="int" value="2130968582" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SNOW" static="true" transient="false" type="int" type-generic-aware="int" value="2130968585" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="androidStyleNameSpace" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;http://schemas.android.com/apk/res/android&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="R" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="R" static="false" type="com.cengalabs.flatui.R" visibility="public">
+</constructor>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="R.array" static="true" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="R.array" static="false" type="com.cengalabs.flatui.R.array" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="blood" static="true" transient="false" type="int" type-generic-aware="int" value="2130968587" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="blossom" static="true" transient="false" type="int" type-generic-aware="int" value="2130968579" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="candy" static="true" transient="false" type="int" type-generic-aware="int" value="2130968578" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="dark" static="true" transient="false" type="int" type-generic-aware="int" value="2130968584" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="deep" static="true" transient="false" type="int" type-generic-aware="int" value="2130968581" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="grape" static="true" transient="false" type="int" type-generic-aware="int" value="2130968580" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="grass" static="true" transient="false" type="int" type-generic-aware="int" value="2130968583" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="orange" static="true" transient="false" type="int" type-generic-aware="int" value="2130968577" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="sand" static="true" transient="false" type="int" type-generic-aware="int" value="2130968576" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="sea" static="true" transient="false" type="int" type-generic-aware="int" value="2130968586" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="sky" static="true" transient="false" type="int" type-generic-aware="int" value="2130968582" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="snow" static="true" transient="false" type="int" type-generic-aware="int" value="2130968585" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="R.attr" static="true" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="R.attr" static="false" type="com.cengalabs.flatui.R.attr" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="fl_autoFieldStyle" static="true" transient="false" type="int" type-generic-aware="int" value="2130771980" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_backgroundColor" static="true" transient="false" type="int" type-generic-aware="int" value="2130771982" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_blockButtonEffectHeight" static="true" transient="false" type="int" type-generic-aware="int" value="2130771978" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_borderWidth" static="true" transient="false" type="int" type-generic-aware="int" value="2130771974" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_cornerRadius" static="true" transient="false" type="int" type-generic-aware="int" value="2130771973" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_customBackgroundColor" static="true" transient="false" type="int" type-generic-aware="int" value="2130771983" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_dotMargin" static="true" transient="false" type="int" type-generic-aware="int" value="2130771977" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_fieldStyle" static="true" transient="false" type="int" type-generic-aware="int" value="2130771979" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_fontExtension" static="true" transient="false" type="int" type-generic-aware="int" value="2130771971" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_fontFamily" static="true" transient="false" type="int" type-generic-aware="int" value="2130771969" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_fontWeight" static="true" transient="false" type="int" type-generic-aware="int" value="2130771970" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_size" static="true" transient="false" type="int" type-generic-aware="int" value="2130771975" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_space" static="true" transient="false" type="int" type-generic-aware="int" value="2130771984" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_textAppearance" static="true" transient="false" type="int" type-generic-aware="int" value="2130771972" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_textColor" static="true" transient="false" type="int" type-generic-aware="int" value="2130771981" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_theme" static="true" transient="false" type="int" type-generic-aware="int" value="2130771968" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_touchEffect" static="true" transient="false" type="int" type-generic-aware="int" value="2130771976" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="R.color" static="true" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="R.color" static="false" type="com.cengalabs.flatui.R.color" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="blood_dark" static="true" transient="false" type="int" type-generic-aware="int" value="2130903085" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="blood_darker" static="true" transient="false" type="int" type-generic-aware="int" value="2130903084" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="blood_light" static="true" transient="false" type="int" type-generic-aware="int" value="2130903087" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="blood_primary" static="true" transient="false" type="int" type-generic-aware="int" value="2130903086" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="blossom_dark" static="true" transient="false" type="int" type-generic-aware="int" value="2130903053" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="blossom_darker" static="true" transient="false" type="int" type-generic-aware="int" value="2130903052" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="blossom_light" static="true" transient="false" type="int" type-generic-aware="int" value="2130903055" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="blossom_primary" static="true" transient="false" type="int" type-generic-aware="int" value="2130903054" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="candy_dark" static="true" transient="false" type="int" type-generic-aware="int" value="2130903049" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="candy_darker" static="true" transient="false" type="int" type-generic-aware="int" value="2130903048" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="candy_light" static="true" transient="false" type="int" type-generic-aware="int" value="2130903051" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="candy_primary" static="true" transient="false" type="int" type-generic-aware="int" value="2130903050" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="dark_dark" static="true" transient="false" type="int" type-generic-aware="int" value="2130903073" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="dark_darker" static="true" transient="false" type="int" type-generic-aware="int" value="2130903072" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="dark_light" static="true" transient="false" type="int" type-generic-aware="int" value="2130903075" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="dark_primary" static="true" transient="false" type="int" type-generic-aware="int" value="2130903074" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="deep_dark" static="true" transient="false" type="int" type-generic-aware="int" value="2130903061" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="deep_darker" static="true" transient="false" type="int" type-generic-aware="int" value="2130903060" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="deep_light" static="true" transient="false" type="int" type-generic-aware="int" value="2130903063" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="deep_primary" static="true" transient="false" type="int" type-generic-aware="int" value="2130903062" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="grape_dark" static="true" transient="false" type="int" type-generic-aware="int" value="2130903057" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="grape_darker" static="true" transient="false" type="int" type-generic-aware="int" value="2130903056" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="grape_light" static="true" transient="false" type="int" type-generic-aware="int" value="2130903059" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="grape_primary" static="true" transient="false" type="int" type-generic-aware="int" value="2130903058" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="grass_dark" static="true" transient="false" type="int" type-generic-aware="int" value="2130903069" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="grass_darker" static="true" transient="false" type="int" type-generic-aware="int" value="2130903068" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="grass_light" static="true" transient="false" type="int" type-generic-aware="int" value="2130903071" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="grass_primary" static="true" transient="false" type="int" type-generic-aware="int" value="2130903070" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="orange_dark" static="true" transient="false" type="int" type-generic-aware="int" value="2130903045" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="orange_darker" static="true" transient="false" type="int" type-generic-aware="int" value="2130903044" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="orange_light" static="true" transient="false" type="int" type-generic-aware="int" value="2130903047" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="orange_primary" static="true" transient="false" type="int" type-generic-aware="int" value="2130903046" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="sand_dark" static="true" transient="false" type="int" type-generic-aware="int" value="2130903041" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="sand_darker" static="true" transient="false" type="int" type-generic-aware="int" value="2130903040" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="sand_light" static="true" transient="false" type="int" type-generic-aware="int" value="2130903043" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="sand_primary" static="true" transient="false" type="int" type-generic-aware="int" value="2130903042" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="sea_dark" static="true" transient="false" type="int" type-generic-aware="int" value="2130903081" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="sea_darker" static="true" transient="false" type="int" type-generic-aware="int" value="2130903080" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="sea_light" static="true" transient="false" type="int" type-generic-aware="int" value="2130903083" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="sea_primary" static="true" transient="false" type="int" type-generic-aware="int" value="2130903082" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="sky_dark" static="true" transient="false" type="int" type-generic-aware="int" value="2130903065" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="sky_darker" static="true" transient="false" type="int" type-generic-aware="int" value="2130903064" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="sky_light" static="true" transient="false" type="int" type-generic-aware="int" value="2130903067" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="sky_primary" static="true" transient="false" type="int" type-generic-aware="int" value="2130903066" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="snow_dark" static="true" transient="false" type="int" type-generic-aware="int" value="2130903077" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="snow_darker" static="true" transient="false" type="int" type-generic-aware="int" value="2130903076" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="snow_light" static="true" transient="false" type="int" type-generic-aware="int" value="2130903079" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="snow_primary" static="true" transient="false" type="int" type-generic-aware="int" value="2130903078" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="R.id" static="true" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="R.id" static="false" type="com.cengalabs.flatui.R.id" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="box" static="true" transient="false" type="int" type-generic-aware="int" value="2130837513" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_box" static="true" transient="false" type="int" type-generic-aware="int" value="2130837510" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_dark" static="true" transient="false" type="int" type-generic-aware="int" value="2130837505" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_darker" static="true" transient="false" type="int" type-generic-aware="int" value="2130837515" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_ease" static="true" transient="false" type="int" type-generic-aware="int" value="2130837507" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_flat" static="true" transient="false" type="int" type-generic-aware="int" value="2130837509" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_light" static="true" transient="false" type="int" type-generic-aware="int" value="2130837506" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_main" static="true" transient="false" type="int" type-generic-aware="int" value="2130837516" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_none" static="true" transient="false" type="int" type-generic-aware="int" value="2130837504" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_ripple" static="true" transient="false" type="int" type-generic-aware="int" value="2130837508" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_transparent" static="true" transient="false" type="int" type-generic-aware="int" value="2130837511" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="flat" static="true" transient="false" type="int" type-generic-aware="int" value="2130837512" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="transparent" static="true" transient="false" type="int" type-generic-aware="int" value="2130837514" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="R.string" static="true" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="R.string" static="false" type="com.cengalabs.flatui.R.string" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="app_name" static="true" transient="false" type="int" type-generic-aware="int" value="2131034112" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="R.styleable" static="true" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="R.styleable" static="false" type="com.cengalabs.flatui.R.styleable" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="fl_FlatAutoCompleteTextView" static="true" transient="false" type="int[]" type-generic-aware="int[]" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatAutoCompleteTextView_fl_autoFieldStyle" static="true" transient="false" type="int" type-generic-aware="int" value="7" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatAutoCompleteTextView_fl_borderWidth" static="true" transient="false" type="int" type-generic-aware="int" value="6" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatAutoCompleteTextView_fl_cornerRadius" static="true" transient="false" type="int" type-generic-aware="int" value="5" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatAutoCompleteTextView_fl_fontExtension" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatAutoCompleteTextView_fl_fontFamily" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatAutoCompleteTextView_fl_fontWeight" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatAutoCompleteTextView_fl_textAppearance" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatAutoCompleteTextView_fl_theme" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatButton" static="true" transient="false" type="int[]" type-generic-aware="int[]" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatButton_fl_blockButtonEffectHeight" static="true" transient="false" type="int" type-generic-aware="int" value="7" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatButton_fl_cornerRadius" static="true" transient="false" type="int" type-generic-aware="int" value="5" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatButton_fl_fontExtension" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatButton_fl_fontFamily" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatButton_fl_fontWeight" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatButton_fl_textAppearance" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatButton_fl_theme" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatButton_fl_touchEffect" static="true" transient="false" type="int" type-generic-aware="int" value="6" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatCheckBox" static="true" transient="false" type="int[]" type-generic-aware="int[]" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatCheckBox_fl_cornerRadius" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatCheckBox_fl_dotMargin" static="true" transient="false" type="int" type-generic-aware="int" value="6" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatCheckBox_fl_fontExtension" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatCheckBox_fl_fontFamily" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatCheckBox_fl_fontWeight" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatCheckBox_fl_size" static="true" transient="false" type="int" type-generic-aware="int" value="5" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatCheckBox_fl_theme" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatEditText" static="true" transient="false" type="int[]" type-generic-aware="int[]" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatEditText_fl_borderWidth" static="true" transient="false" type="int" type-generic-aware="int" value="6" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatEditText_fl_cornerRadius" static="true" transient="false" type="int" type-generic-aware="int" value="5" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatEditText_fl_fieldStyle" static="true" transient="false" type="int" type-generic-aware="int" value="7" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatEditText_fl_fontExtension" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatEditText_fl_fontFamily" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatEditText_fl_fontWeight" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatEditText_fl_textAppearance" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatEditText_fl_theme" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatRadioButton" static="true" transient="false" type="int[]" type-generic-aware="int[]" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatRadioButton_fl_borderWidth" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatRadioButton_fl_dotMargin" static="true" transient="false" type="int" type-generic-aware="int" value="6" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatRadioButton_fl_fontExtension" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatRadioButton_fl_fontFamily" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatRadioButton_fl_fontWeight" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatRadioButton_fl_size" static="true" transient="false" type="int" type-generic-aware="int" value="5" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatRadioButton_fl_theme" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatSeekBar" static="true" transient="false" type="int[]" type-generic-aware="int[]" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatSeekBar_fl_size" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatSeekBar_fl_theme" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatTextView" static="true" transient="false" type="int[]" type-generic-aware="int[]" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatTextView_fl_backgroundColor" static="true" transient="false" type="int" type-generic-aware="int" value="7" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatTextView_fl_borderWidth" static="true" transient="false" type="int" type-generic-aware="int" value="5" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatTextView_fl_cornerRadius" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatTextView_fl_customBackgroundColor" static="true" transient="false" type="int" type-generic-aware="int" value="8" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatTextView_fl_fontExtension" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatTextView_fl_fontFamily" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatTextView_fl_fontWeight" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatTextView_fl_textColor" static="true" transient="false" type="int" type-generic-aware="int" value="6" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatTextView_fl_theme" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatToggleButton" static="true" transient="false" type="int[]" type-generic-aware="int[]" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatToggleButton_fl_cornerRadius" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatToggleButton_fl_space" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="fl_FlatToggleButton_fl_theme" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TouchEffectAnimator" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="TouchEffectAnimator" static="false" type="com.cengalabs.flatui.TouchEffectAnimator" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="onDraw" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onTouchEvent" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.MotionEvent">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setAnimDuration" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setClipRadius" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setEffectColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setHasRippleEffect" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TouchEffectAnimator.1" static="false" visibility="">
+<implements name="android.view.animation.Animation.AnimationListener" name-generic-aware="android.view.animation.Animation.AnimationListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationEnd" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.animation.Animation">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationRepeat" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.animation.Animation">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationStart" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.animation.Animation">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TouchEffectAnimator.2" static="false" visibility="">
+<implements name="com.cengalabs.flatui.TouchEffectAnimator.InterpolatedTimeCallback" name-generic-aware="com.cengalabs.flatui.TouchEffectAnimator.InterpolatedTimeCallback">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onTimeUpdate" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TouchEffectAnimator.3" static="false" visibility="">
+<implements name="com.cengalabs.flatui.TouchEffectAnimator.InterpolatedTimeCallback" name-generic-aware="com.cengalabs.flatui.TouchEffectAnimator.InterpolatedTimeCallback">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onTimeUpdate" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="TouchEffectAnimator.InterpolatedTimeCallback" static="true" visibility="">
+<method abstract="true" deprecated="not deprecated" final="false" name="onTimeUpdate" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="android.view.animation.Animation" extends-generic-aware="android.view.animation.Animation" final="false" name="TouchEffectAnimator.ValueGeneratorAnim" static="false" visibility=""/>
+</package>
+<package name="com.cengalabs.flatui.views">
+<class abstract="false" deprecated="not deprecated" extends="android.widget.AutoCompleteTextView" extends-generic-aware="android.widget.AutoCompleteTextView" final="false" name="FlatAutoCompleteTextView" static="false" visibility="public">
+<implements name="com.cengalabs.flatui.Attributes.AttributeChangeListener" name-generic-aware="com.cengalabs.flatui.Attributes.AttributeChangeListener">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="FlatAutoCompleteTextView" static="false" type="com.cengalabs.flatui.views.FlatAutoCompleteTextView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="FlatAutoCompleteTextView" static="false" type="com.cengalabs.flatui.views.FlatAutoCompleteTextView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="FlatAutoCompleteTextView" static="false" type="com.cengalabs.flatui.views.FlatAutoCompleteTextView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAttributes" native="false" return="com.cengalabs.flatui.Attributes" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onThemeChange" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.widget.Button" extends-generic-aware="android.widget.Button" final="false" name="FlatButton" static="false" visibility="public">
+<implements name="com.cengalabs.flatui.Attributes.AttributeChangeListener" name-generic-aware="com.cengalabs.flatui.Attributes.AttributeChangeListener">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="FlatButton" static="false" type="com.cengalabs.flatui.views.FlatButton" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="FlatButton" static="false" type="com.cengalabs.flatui.views.FlatButton" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="FlatButton" static="false" type="com.cengalabs.flatui.views.FlatButton" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAttributes" native="false" return="com.cengalabs.flatui.Attributes" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onThemeChange" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.widget.CheckBox" extends-generic-aware="android.widget.CheckBox" final="false" name="FlatCheckBox" static="false" visibility="public">
+<implements name="com.cengalabs.flatui.Attributes.AttributeChangeListener" name-generic-aware="com.cengalabs.flatui.Attributes.AttributeChangeListener">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="FlatCheckBox" static="false" type="com.cengalabs.flatui.views.FlatCheckBox" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="FlatCheckBox" static="false" type="com.cengalabs.flatui.views.FlatCheckBox" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="FlatCheckBox" static="false" type="com.cengalabs.flatui.views.FlatCheckBox" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAttributes" native="false" return="com.cengalabs.flatui.Attributes" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onThemeChange" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.widget.EditText" extends-generic-aware="android.widget.EditText" final="false" name="FlatEditText" static="false" visibility="public">
+<implements name="com.cengalabs.flatui.Attributes.AttributeChangeListener" name-generic-aware="com.cengalabs.flatui.Attributes.AttributeChangeListener">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="FlatEditText" static="false" type="com.cengalabs.flatui.views.FlatEditText" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="FlatEditText" static="false" type="com.cengalabs.flatui.views.FlatEditText" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="FlatEditText" static="false" type="com.cengalabs.flatui.views.FlatEditText" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAttributes" native="false" return="com.cengalabs.flatui.Attributes" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onThemeChange" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.widget.RadioButton" extends-generic-aware="android.widget.RadioButton" final="false" name="FlatRadioButton" static="false" visibility="public">
+<implements name="com.cengalabs.flatui.Attributes.AttributeChangeListener" name-generic-aware="com.cengalabs.flatui.Attributes.AttributeChangeListener">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="FlatRadioButton" static="false" type="com.cengalabs.flatui.views.FlatRadioButton" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="FlatRadioButton" static="false" type="com.cengalabs.flatui.views.FlatRadioButton" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="FlatRadioButton" static="false" type="com.cengalabs.flatui.views.FlatRadioButton" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAttributes" native="false" return="com.cengalabs.flatui.Attributes" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onThemeChange" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.widget.SeekBar" extends-generic-aware="android.widget.SeekBar" final="false" name="FlatSeekBar" static="false" visibility="public">
+<implements name="com.cengalabs.flatui.Attributes.AttributeChangeListener" name-generic-aware="com.cengalabs.flatui.Attributes.AttributeChangeListener">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="FlatSeekBar" static="false" type="com.cengalabs.flatui.views.FlatSeekBar" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="FlatSeekBar" static="false" type="com.cengalabs.flatui.views.FlatSeekBar" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="FlatSeekBar" static="false" type="com.cengalabs.flatui.views.FlatSeekBar" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAttributes" native="false" return="com.cengalabs.flatui.Attributes" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onThemeChange" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.widget.TextView" extends-generic-aware="android.widget.TextView" final="false" name="FlatTextView" static="false" visibility="public">
+<implements name="com.cengalabs.flatui.Attributes.AttributeChangeListener" name-generic-aware="com.cengalabs.flatui.Attributes.AttributeChangeListener">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="FlatTextView" static="false" type="com.cengalabs.flatui.views.FlatTextView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="FlatTextView" static="false" type="com.cengalabs.flatui.views.FlatTextView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="FlatTextView" static="false" type="com.cengalabs.flatui.views.FlatTextView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAttributes" native="false" return="com.cengalabs.flatui.Attributes" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onThemeChange" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.widget.ToggleButton" extends-generic-aware="android.widget.ToggleButton" final="false" name="FlatToggleButton" static="false" visibility="public">
+<implements name="com.cengalabs.flatui.Attributes.AttributeChangeListener" name-generic-aware="com.cengalabs.flatui.Attributes.AttributeChangeListener">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="FlatToggleButton" static="false" type="com.cengalabs.flatui.views.FlatToggleButton" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="FlatToggleButton" static="false" type="com.cengalabs.flatui.views.FlatToggleButton" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="FlatToggleButton" static="false" type="com.cengalabs.flatui.views.FlatToggleButton" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAttributes" native="false" return="com.cengalabs.flatui.Attributes" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onThemeChange" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+</package>
+</api>

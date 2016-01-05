@@ -1,0 +1,4 @@
+E:\xamarin\FlatUI-1.0\samples\FlatUI.Sample\FlatUI\bin\Release\FlatUI.dll
+E:\xamarin\FlatUI-1.0\samples\FlatUI.Sample\FlatUI\bin\Release\FlatUI.pdb
+E:\xamarin\FlatUI-1.0\samples\FlatUI.Sample\FlatUI\obj\Release\FlatUI.dll
+E:\xamarin\FlatUI-1.0\samples\FlatUI.Sample\FlatUI\obj\Release\FlatUI.pdb

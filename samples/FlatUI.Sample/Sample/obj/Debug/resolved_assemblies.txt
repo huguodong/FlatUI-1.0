@@ -1,0 +1,10 @@
+E:\xamarin\FlatUI-1.0\samples\FlatUI.Sample\Sample\obj\Debug\assemblies\Sample.dll
+E:\xamarin\FlatUI-1.0\samples\FlatUI.Sample\Sample\obj\Debug\assemblies\FlatUI.dll
+E:\xamarin\FlatUI-1.0\samples\FlatUI.Sample\Sample\obj\Debug\assemblies\Mono.Android.dll
+E:\xamarin\FlatUI-1.0\samples\FlatUI.Sample\Sample\obj\Debug\assemblies\mscorlib.dll
+E:\xamarin\FlatUI-1.0\samples\FlatUI.Sample\Sample\obj\Debug\assemblies\System.Core.dll
+E:\xamarin\FlatUI-1.0\samples\FlatUI.Sample\Sample\obj\Debug\assemblies\System.dll
+E:\xamarin\FlatUI-1.0\samples\FlatUI.Sample\Sample\obj\Debug\assemblies\System.Xml.dll
+E:\xamarin\FlatUI-1.0\samples\FlatUI.Sample\Sample\obj\Debug\assemblies\System.Xml.Linq.dll
+E:\xamarin\FlatUI-1.0\samples\FlatUI.Sample\Sample\obj\Debug\assemblies\System.Runtime.Serialization.dll
+E:\xamarin\FlatUI-1.0\samples\FlatUI.Sample\Sample\obj\Debug\assemblies\System.ServiceModel.Internals.dll

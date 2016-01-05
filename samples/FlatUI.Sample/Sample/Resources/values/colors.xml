@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <!-- sky -->
+  <color name="sky_darker">#0b6978</color>
+  <color name="sky_dark">#0e8b9e</color>
+  <color name="sky_primary">#13b7d2</color>
+  <color name="sky_light">#b9e4eb</color>
+  <integer-array name="sky">
+    <item>@color/sky_darker</item>
+    <item>@color/sky_dark</item>
+    <item>@color/sky_primary</item>
+    <item>@color/sky_light</item>
+  </integer-array>
+  <!-- sea -->
+  <color name="sea_darker">#1a3b6c</color>
+  <color name="sea_dark">#1c52a2</color>
+  <color name="sea_primary">#2d72d9</color>
+  <color name="sea_light">#d5e3f7</color>
+  <integer-array name="sea">
+    <item>@color/sea_darker</item>
+    <item>@color/sea_dark</item>
+    <item>@color/sea_primary</item>
+    <item>@color/sea_light</item>
+  </integer-array>
+</resources>
